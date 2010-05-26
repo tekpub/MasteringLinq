@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="TekPub">
+  <DataContextMoniker Name="/TekPubDataContext" />
+  <nestedChildShapes>
+    <classShape Id="35e2c65b-5847-471e-bfa5-3e6dacf66863" absoluteBounds="2.75, 0.625, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/TekPubDataContext/Category" />
+      <nestedChildShapes>
+        <elementListCompartment Id="726e2234-41e7-40bd-8fb5-bed6d7c49665" absoluteBounds="2.7649999999999997, 1.085, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8b924be8-223a-4081-a053-a7ab85193fbe" absoluteBounds="2.875, 2.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/TekPubDataContext/Product" />
+      <nestedChildShapes>
+        <elementListCompartment Id="de6d9e10-6197-48ad-aaee-08f50d318717" absoluteBounds="2.8899999999999997, 2.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.8125 : 1.81899251302083); (3.8125 : 2.5)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/TekPubDataContext/Category/Category_Product" />
+      <nodes>
+        <classShapeMoniker Id="35e2c65b-5847-471e-bfa5-3e6dacf66863" />
+        <classShapeMoniker Id="8b924be8-223a-4081-a053-a7ab85193fbe" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
